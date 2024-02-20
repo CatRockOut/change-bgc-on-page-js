@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#button {
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: .25s ease ;
+}
+
+#button:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#button:active {
+    width: 138px;
+    height: 46px;
+}
+
+.name-color {
+    color: #4ca5ed;
+}
